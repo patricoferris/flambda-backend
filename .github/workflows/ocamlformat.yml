@@ -40,4 +40,4 @@ jobs:
 
     - name: Check formatting of Flambda 2 and Cfg code
       working-directory: flambda_backend
-      run: opam exec --switch=4.12.0 make check-fmt
+      run: opam exec -- make check-fmt
